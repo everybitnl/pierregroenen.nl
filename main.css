@@ -1,0 +1,133 @@
+body {
+  background-color: #1e3131;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 100%;
+  line-height: 1.4em;
+}
+header {
+  background: #fff url(images/bouwbegeleiding.jpg) center center no-repeat;
+  background-size: cover;
+}
+h2 {
+  font-family: "Concert One";
+  font-size: 1.4em;
+  display: inline-block;
+  margin-top: 1em;
+  color: #5b5547;
+  background: #cfe129;
+  vertical-align: bottom;
+  padding: 0 0.4em 0.4em;
+}
+.main_wrapper {
+  max-width: 980px;
+  margin: auto;
+}
+.banner {
+  height: 320px;
+}
+.banner h2 {
+  margin: 20px;
+  color: #cfe129;
+  background: #314243;
+  line-height: 2em;
+  font-size: 2em;
+}
+h2.adv {
+  font-size: 1.4em;
+  color: #314243;
+  background: #cfe129;
+}
+a {
+  color: #5b5547;
+}
+article {
+  background-color: #ffffff;
+}
+article p {
+  font-family: "Source Serif Pro", serif;
+  font-size: 1.1em;
+  line-height: 1.4em;
+  text-align: justify;
+  margin: 1em;
+}
+.col {
+  width: 50%;
+  float: left;
+}
+footer {
+  text-align: right;
+  color: #cccccc;
+  font-size: 0.8em;
+  line-height: 1.3em;
+}
+footer .main_wrapper {
+  background: url(images/footer.png) left top no-repeat;
+}
+footer p {
+  margin: 20px 10px;
+}
+footer a {
+  color: #cccccc;
+}
+form {
+  background: #eee;
+  margin: 10px;
+}
+.quote {
+  font-style: italic;
+  color: #111;
+  background-color: #cfe129;
+  padding: 20px 0;
+}
+.quote p {
+  text-align: left;
+}
+.squote {
+  font-size: 1.6em;
+  line-height: 1.2em;
+  margin: 2em;
+  text-align: center;
+  font-family: "Varela Round", sans-serif;
+  font-style: italic;
+  font-weight: 700;
+}
+form {
+  padding: 10px;
+}
+input {
+  font-size: 1em;
+  padding: 0.2em;
+  margin: 0.2em 0 1em;
+  border: 1px solid gray;
+  width: 240px;
+  font-weight: 900;
+}
+textarea {
+  font-family: Arial;
+  font-size: 1em;
+  padding: 0.2em;
+  border: 1px solid gray;
+  width: 100%;
+  max-width: 40em;
+  height: 5em;
+}
+@media all and (max-width: 980px) {
+  .main_wrapper {
+    width: 100%;
+  }
+}
+@media all and (max-width: 480px) {
+  footer .main_wrapper {
+    height: 280px;
+    background-position: bottom;
+  }
+}
+@media all and (max-width: 40em) {
+  .col {
+    width: 100%;
+  }
+  .col.quote p:first-of-type {
+    border-top: 1px solid gray;
+    padding-top: 1em;
+  }
+}
